@@ -40,8 +40,3 @@ empleo-cerca/
 ├── style.css           # Estilos y diseño de la interfaz
 ├── app.js              # Lógica de geocodificación, consultas HTTP, caché, filtros y mapa
 └── README.md           # Instrucciones y descripción del proyecto
----
-## Arquitectura y flujo de funcionamiento
-
-<img width="1157" height="637" alt="image" src="https://github.com/user-attachments/assets/7f035d09-befd-4e5f-af6a-4e70ca94d6e8" />
-
