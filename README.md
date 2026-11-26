@@ -37,7 +37,6 @@ Aplicación web diseñada para ayudar a los usuarios a localizar negocios cercan
 ```text
 empleo-cerca/
 ├── index.html          # Estructura principal y vistas (Buscar, Cerca de ti, Puestos, Mi lista, Consejos)
-├── style.css           # Estilos y diseño responsivo de la interfaz
+├── style.css           # Estilos y diseño de la interfaz
 ├── app.js              # Lógica de geocodificación, consultas HTTP, caché, filtros y mapa
-├── .gitignore          # Archivos y carpetas excluidos del repositorio
-└── README.md           # Documentación principal del proyecto
+└── README.md           # Instrucciones y descripción del proyecto
