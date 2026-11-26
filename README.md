@@ -40,7 +40,7 @@ empleo-cerca/
 ├── style.css           # Estilos y diseño de la interfaz
 ├── app.js              # Lógica de geocodificación, consultas HTTP, caché, filtros y mapa
 └── README.md           # Instrucciones y descripción del proyecto
-
+---
 ## Flujo del Funcionamiento
 Usuario ingresa ciudad, puesto (opcional) y radio
         │
