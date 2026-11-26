@@ -41,3 +41,6 @@ empleo-cerca/
 ├── app.js              # Lógica de geocodificación, consultas HTTP, caché, filtros y mapa
 └── README.md           # Instrucciones y descripción del proyecto
 ---
+## Arquitectura y flujo de funcionamiento
+
+![Arquitectura y flujo de funcionamiento](./docs/arquitectura.png)
