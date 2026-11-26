@@ -43,4 +43,5 @@ empleo-cerca/
 ---
 ## Arquitectura y flujo de funcionamiento
 
-![Arquitectura y flujo de funcionamiento](./docs/arquitectura.png)
+<img width="1157" height="637" alt="image" src="https://github.com/user-attachments/assets/7f035d09-befd-4e5f-af6a-4e70ca94d6e8" />
+
