@@ -41,23 +41,3 @@ empleo-cerca/
 ├── app.js              # Lógica de geocodificación, consultas HTTP, caché, filtros y mapa
 └── README.md           # Instrucciones y descripción del proyecto
 ---
-## Flujo del Funcionamiento
-Usuario ingresa ciudad, puesto (opcional) y radio
-        │
-        ▼
-  Validación de campos
-        │
-        ▼
-  geocode(): Ciudades rápidas ──► Caché 24 h ──► Photon ──► Nominatim (respaldo)
-        │
-        ▼
-  fetchCompanies(): Caché 24 h ──► Overpass (Servidor 1 ──► 2 ──► 3)
-        │                                       │
-        │                               (si todos fallan)
-        │                                       ▼
-        │                         generateFallbackCompanies()
-        ▼
-  buildJobs(): Generación de puestos y sueldos estimados por sector
-        │
-        ▼
-  Filtrado por puesto y renderizado en mapa (Leaflet) y tarjetas
