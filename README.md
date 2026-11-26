@@ -60,7 +60,7 @@ empleo-cerca/
    ```
 
 2. **Ejecutar la aplicación**
-   Al ser una aplicación web del lado del cliente sin dependencias de servidor, abre `index.html` directamente en tu navegador o levanta un servidor local estático:
+   Abre `index.html` directamente en tu navegador o levanta un servidor local estático:
    ```bash
    python -m http.server 5500
    ```
@@ -76,7 +76,7 @@ Las pruebas funcionales y de rendimiento de las APIs se documentaron y ejecutaro
 - **Consulta de negocios (`POST` a Overpass):** Validación de código de estado, estructura JSON (`elements`), campos requeridos y análisis de tiempos de respuesta (justificando el *timeout* de `7000 ms`, los 3 servidores espejo y el uso de caché local).
 - **Operaciones de escritura (`POST` / `PUT`):** Validación con cuerpo `raw/JSON` mediante JSONPlaceholder (`201 Created` / `200 OK`).
 
-*(El detalle completo de peticiones, scripts `pm.test`, tiempos de respuesta y capturas de ejecución se encuentra en la documentación técnica entregada del proyecto).*
+*(Las peticiones, scripts `pm.test`, tiempos de respuesta y capturas de ejecución las anexamos en la documentación del proyecto).*
 
 ---
 
